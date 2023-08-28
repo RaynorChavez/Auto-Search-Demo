@@ -1,4 +1,4 @@
-from platforms import shopify_scraper, woocommerce_scraper, magento_scraper, generic_scraper
+from ecommerce_scraper.platforms import shopify_scraper, woocommerce_scraper, magento_scraper, generic_scraper
 
 def get_scraper_for_url(url):
     """
